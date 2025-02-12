@@ -105,8 +105,7 @@ tests/
     ├── test_base.py     # 基础 LLM 类测试
     ├── test_factory.py  # LLM 工厂测试
     ├── test_openai_llm.py
-    ├── test_ollama_llm.py
-    └── test_claude_llm.py
+    └── test_ollama_llm.py
 ```
 
 ### 主要测试内容
