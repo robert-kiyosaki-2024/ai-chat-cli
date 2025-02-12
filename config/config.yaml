@@ -1,0 +1,19 @@
+# LLM 提供商配置
+provider: ollama  # 可选值: openai, ollama, other
+
+# OpenAI 配置
+openai:
+  api_key: your-api-key
+  api_base: https://api.openai.com/v1
+  model: gpt-3.5-turbo
+
+# Ollama 配置
+ollama:
+  api_base: http://localhost:11434
+  model: huihui_ai/deepseek-r1-abliterated:8b
+
+# 其他提供商配置
+other:
+  api_key: your-api-key
+  api_base: https://api.other-provider.com
+  model: other-model 
