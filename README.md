@@ -130,7 +130,7 @@ tests/
   - 超时处理
   - 重试机制
 
-
+## 初始化仓库
 ```bash
 git init
 git add README.md
